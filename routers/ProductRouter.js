@@ -4,8 +4,12 @@ router.get('/add',(req,res)=>{
     res.send('Response from user add')
 
 });
+// router.get('/getall',(req,res)=>{
+//     res.send('response from user delete')
+// }
+
 router.get('/getall',(req,res)=>{
-    res.send('response from user delete')
+    res.send('response from th user delete')
 })
 router.get('/getbyid',(req,res)=>{
     res.send('response from user getbyid')
