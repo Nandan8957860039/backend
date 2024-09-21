@@ -1,8 +1,8 @@
 //import express
 const express = require('express');
 const UserRouter = require('./routers/UserRouter')
-// const ProductRouter = require('./routers/ProductRouter')
-const ProductRouter=require('./routers/ProductRouter')
+const ProductRouter = require('./routers/ProductRouter')
+//const ProductRouter=require('./routers/ProductRouter')
 //intialise express
 // const app = express();
 const app=express();
@@ -34,3 +34,11 @@ app.get('/getbyid', (req, res) => {
 
 //asincronus function-serve start ho jaiga call back port chale ga tb yhe chale ga 
 app.listen(PORT, () => { console.log('server started'); });
+
+
+//response status codes
+//1.100-199: information response code
+//2.200-299: success status code
+//3.300-399: Redirect status code
+//4.400-499: client side server
+//5.4
